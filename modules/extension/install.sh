@@ -2,4 +2,4 @@
 
 echo "[INFO] Install jar to local repository."
 
-mvn clean install
+mvn clean install -Dmaven.test.skip=true

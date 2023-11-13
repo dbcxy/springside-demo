@@ -27,11 +27,11 @@
 
 <body>
 	<div class="container">
-<%--		<%@ include file="/WEB-INF/layouts/header.jsp"%>--%>
+		<%@ include file="/WEB-INF/layouts/header.jsp"%>
 		<div id="content">
 			<sitemesh:body/>
 		</div>
-<%--		<%@ include file="/WEB-INF/layouts/footer.jsp"%>--%>
+		<%@ include file="/WEB-INF/layouts/footer.jsp"%>
 	</div>
 	<script src="${ctx}/static/bootstrap/2.3.2/js/bootstrap.min.js" type="text/javascript"></script>
 </body>

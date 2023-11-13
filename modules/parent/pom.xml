@@ -1022,7 +1022,9 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
 						<configuration>
+							<properties>
 							<includedGroups>org.springside.modules.test.category.UnStable</includedGroups>
+							</properties>
 						</configuration>
 					</plugin>
 				</plugins>
